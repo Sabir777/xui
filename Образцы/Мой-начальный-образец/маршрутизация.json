@@ -1,0 +1,14 @@
+[
+  {
+    "type": "field",
+    "inboundTag": [
+      "api"
+    ],
+    "outboundTag": "api"
+  },
+  {
+    "type": "field",
+    "network": "TCP,UDP",
+    "outboundTag": "sss-u0bnn17i"
+  }
+]

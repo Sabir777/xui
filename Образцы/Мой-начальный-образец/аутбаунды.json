@@ -1,0 +1,44 @@
+[
+  {
+    "tag": "direct",
+    "protocol": "freedom",
+    "settings": {
+      "domainStrategy": "AsIs",
+      "redirect": "",
+      "noises": []
+    }
+  },
+  {
+    "tag": "blocked",
+    "protocol": "blackhole",
+    "settings": {}
+  },
+  {
+    "protocol": "vless",
+    "settings": {
+      "address": "delta.koro-wer.net",
+      "port": 443,
+      "id": "3e2dce2f-18aa-4e2e-a32a-6f29684efe2e",
+      "flow": "xtls-rprx-vision",
+      "encryption": "none"
+    },
+    "tag": "sss-u0bnn17i",
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "publicKey": "hlokdd0DTtaMAXWfqgHYIK2GLpSQoFp9eLVbD8FU0Vc",
+        "fingerprint": "chrome",
+        "serverName": "google.com",
+        "shortId": "b41994ee18",
+        "spiderX": "/",
+        "mldsa65Verify": ""
+      },
+      "tcpSettings": {
+        "header": {
+          "type": "none"
+        }
+      }
+    }
+  }
+]
